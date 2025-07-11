@@ -1,0 +1,22 @@
+# TensorRT-LLM Benchmark Suite Requirements
+
+# Core dependencies
+tensorrt-llm>=0.16.0
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Analysis and visualization
+matplotlib>=3.5.0
+numpy>=1.21.0
+pandas>=1.3.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.64.0
+psutil>=5.9.0
+huggingface-hub>=0.15.0
+
+# Optional: For advanced analysis
+plotly>=5.0.0
+jupyter>=1.0.0

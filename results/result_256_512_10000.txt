@@ -1,0 +1,678 @@
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+[07/11/2025-05:57:39] [TRT-LLM] [I] Preparing to run throughput benchmark...
+[07/11/2025-05:57:40] [TRT-LLM] [I] Setting up benchmarker and infrastructure.
+[07/11/2025-05:57:40] [TRT-LLM] [I] Initializing Throughput Benchmark. [rate=-1 req/s]
+[07/11/2025-05:57:40] [TRT-LLM] [I] Ready to start benchmark.
+[07/11/2025-05:57:40] [TRT-LLM] [I] Initializing Executor.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 7
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 5
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 1
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 3
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 0
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 4
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 2
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 6
+[TensorRT-LLM][INFO] Rank 1 is using GPU 1
+[TensorRT-LLM][INFO] Rank 7 is using GPU 7
+[TensorRT-LLM][INFO] Rank 5 is using GPU 5
+[TensorRT-LLM][INFO] Rank 6 is using GPU 6
+[TensorRT-LLM][INFO] Rank 3 is using GPU 3
+[TensorRT-LLM][INFO] Rank 2 is using GPU 2
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 0
+[TensorRT-LLM][INFO] Rank 0 is using GPU 0
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] Rank 4 is using GPU 4
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] Loaded engine size: 8925 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8932 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8939 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8941 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8937 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8933 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8940 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8937 MiB
+[TensorRT-LLM][INFO] Detecting local TP group for rank 1
+[TensorRT-LLM][INFO] Detecting local TP group for rank 7
+[TensorRT-LLM][INFO] Detecting local TP group for rank 5
+[TensorRT-LLM][INFO] Detecting local TP group for rank 3
+[TensorRT-LLM][INFO] Detecting local TP group for rank 4
+[TensorRT-LLM][INFO] Detecting local TP group for rank 0
+[TensorRT-LLM][INFO] Detecting local TP group for rank 6
+[TensorRT-LLM][INFO] Detecting local TP group for rank 2
+[TensorRT-LLM][INFO] TP group is intra-node for rank 4
+[TensorRT-LLM][INFO] TP group is intra-node for rank 6
+[TensorRT-LLM][INFO] TP group is intra-node for rank 0
+[TensorRT-LLM][INFO] TP group is intra-node for rank 2
+[TensorRT-LLM][INFO] TP group is intra-node for rank 7
+[TensorRT-LLM][INFO] TP group is intra-node for rank 1
+[TensorRT-LLM][INFO] TP group is intra-node for rank 3
+[TensorRT-LLM][INFO] TP group is intra-node for rank 5
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 57.87 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.41 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.40 GiB
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.38 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.64 GiB
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[07/11/2025-05:58:12] [TRT-LLM] [I] WAITING ON EXECUTOR...
+[07/11/2025-05:58:12] [TRT-LLM] [I] Starting response daemon...
+[07/11/2025-05:58:12] [TRT-LLM] [I] Executor started.
+[07/11/2025-05:58:12] [TRT-LLM] [I] WAITING ON BACKEND TO BE READY...
+[07/11/2025-05:58:12] [TRT-LLM] [I] Request serving started.
+[07/11/2025-05:58:12] [TRT-LLM] [I] Starting statistics collection.
+[07/11/2025-05:58:12] [TRT-LLM] [I] Benchmark started.
+[07/11/2025-05:58:12] [TRT-LLM] [I] Collecting live stats...
+[07/11/2025-05:58:12] [TRT-LLM] [I] Request serving stopped.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Collecting last stats...
+[07/11/2025-06:03:15] [TRT-LLM] [I] Ending statistics collection.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Stop received.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Stopping response parsing.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Collecting last responses before shutdown.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Completed request parsing.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Parsing stopped.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Request generator successfully joined.
+[07/11/2025-06:03:15] [TRT-LLM] [I] Statistics process successfully joined.
+[07/11/2025-06:03:15] [TRT-LLM] [I] 
+
+===========================================================
+= ENGINE DETAILS
+===========================================================
+Model:			meta-llama/Llama-3.1-70B-Instruct
+Engine Directory:	/tmp/meta-llama/Llama-3.1-70B-Instruct/tp_8_pp_1
+TensorRT-LLM Version:	0.16.0
+Dtype:			bfloat16
+KV Cache Dtype:		FP8
+Quantization:		FP8
+Max Sequence Length:	25000
+
+===========================================================
+= WORLD + RUNTIME INFORMATION 
+===========================================================
+TP Size:		8
+PP Size:		1
+Max Runtime Batch Size:	2048
+Max Runtime Tokens:	8192
+Scheduling Policy:	Guaranteed No Evict
+KV Memory Percentage:	90.00%
+Issue Rate (req/sec):	2.5697E+13
+
+===========================================================
+= PERFORMANCE OVERVIEW 
+===========================================================
+Number of requests:		10000
+Average Input Length (tokens):	256.0000
+Average Output Length (tokens):	512.0000
+Token Throughput (tokens/sec):	16891.9057
+Request Throughput (req/sec):	32.9920
+Total Latency (ms):		303103.7524
+
+===========================================================
+
+[07/11/2025-06:03:15] [TRT-LLM] [I] Benchmark Shutdown called!
+[07/11/2025-06:03:15] [TRT-LLM] [I] Shutting down ExecutorServer.
+[TensorRT-LLM][INFO] Orchestrator sendReq thread exiting
+[TensorRT-LLM][INFO] Orchestrator recv thread exiting
+[07/11/2025-06:03:15] [TRT-LLM] [I] Executor shutdown.
+[TensorRT-LLM][INFO] Leader recvReq thread exiting
+[TensorRT-LLM][INFO] Leader sendThread exiting
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[1752213796.021897] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1711 UCX  DEBUG ep 0x7f66465a5000 flags 0x91 cfg_index 0: close_nbx(flags=0x0)
+[1752213796.021907] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           flush.c:381  UCX  DEBUG close ep 0x7f66465a5000
+[1752213796.021918] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5000: destroy
+[1752213796.021919] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5000: cleanup lanes
+[1752213796.021921] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5000: pending & destroy uct_ep[0]=0x55a54c01d910
+[1752213796.021924] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5000: unprogress iface 0x55a54bf2f200 self/memory
+[1752213796.021944] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5000: pending & destroy uct_ep[1]=0x55a54c020ff0
+[1752213796.021945] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5000: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022083] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]      ucp_worker.c:2847 UCX  DEBUG destroy worker 0x55a54bf0eb10
+[1752213796.022085] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]      ucp_worker.c:2833 UCX  DEBUG worker 0x55a54bf0eb10: destroy all endpoints
+[1752213796.022086] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5040: purge uct_ep[0]=0x55a54c2a20e0
+[1752213796.022088] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5040: purge uct_ep[1]=0x55a54d961b60
+[1752213796.022094] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5040: destroy
+[1752213796.022095] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5040: cleanup lanes
+[1752213796.022096] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5040: pending & destroy uct_ep[0]=0x55a54c2a20e0
+[1752213796.022097] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5040: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022267] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5040: pending & destroy uct_ep[1]=0x55a54d961b60
+[1752213796.022268] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5040: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022270] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5080: purge uct_ep[0]=0x55a54d9a1460
+[1752213796.022271] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5080: purge uct_ep[1]=0x55a54d2bfa80
+[1752213796.022273] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5080: destroy
+[1752213796.022274] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5080: cleanup lanes
+[1752213796.022275] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5080: pending & destroy uct_ep[0]=0x55a54d9a1460
+[1752213796.022276] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5080: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022286] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5080: pending & destroy uct_ep[1]=0x55a54d2bfa80
+[1752213796.022287] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5080: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022291] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a50c0: purge uct_ep[0]=0x55a54db93a90
+[1752213796.022292] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a50c0: purge uct_ep[1]=0x55a54dbedf10
+[1752213796.022320] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a50c0: destroy
+[1752213796.022321] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a50c0: cleanup lanes
+[1752213796.022322] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a50c0: pending & destroy uct_ep[0]=0x55a54db93a90
+[1752213796.022322] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a50c0: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022331] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a50c0: pending & destroy uct_ep[1]=0x55a54dbedf10
+[1752213796.022332] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a50c0: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022333] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5100: purge uct_ep[0]=0x55a54c2792c0
+[1752213796.022334] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5100: purge uct_ep[1]=0x55a54f1d4b40
+[1752213796.022335] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5100: destroy
+[1752213796.022336] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5100: cleanup lanes
+[1752213796.022337] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5100: pending & destroy uct_ep[0]=0x55a54c2792c0
+[1752213796.022337] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5100: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022346] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5100: pending & destroy uct_ep[1]=0x55a54f1d4b40
+[1752213796.022347] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5100: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022349] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5140: purge uct_ep[0]=0x55a54c292090
+[1752213796.022350] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5140: purge uct_ep[1]=0x55a54f1b9cc0
+[1752213796.022352] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5140: destroy
+[1752213796.022352] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5140: cleanup lanes
+[1752213796.022353] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5140: pending & destroy uct_ep[0]=0x55a54c292090
+[1752213796.022354] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5140: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022362] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5140: pending & destroy uct_ep[1]=0x55a54f1b9cc0
+[1752213796.022363] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5140: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022365] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5180: purge uct_ep[0]=0x55a54c296c40
+[1752213796.022366] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5180: purge uct_ep[1]=0x55a54f1a2d60
+[1752213796.022368] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5180: destroy
+[1752213796.022369] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5180: cleanup lanes
+[1752213796.022369] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5180: pending & destroy uct_ep[0]=0x55a54c296c40
+[1752213796.022373] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5180: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022382] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5180: pending & destroy uct_ep[1]=0x55a54f1a2d60
+[1752213796.022383] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5180: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022385] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a51c0: purge uct_ep[0]=0x55a54e550670
+[1752213796.022386] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a51c0: purge uct_ep[1]=0x55a54e61d1c0
+[1752213796.022388] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a51c0: destroy
+[1752213796.022388] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a51c0: cleanup lanes
+[1752213796.022389] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a51c0: pending & destroy uct_ep[0]=0x55a54e550670
+[1752213796.022390] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a51c0: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022397] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a51c0: pending & destroy uct_ep[1]=0x55a54e61d1c0
+[1752213796.022398] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a51c0: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022400] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5200: purge uct_ep[0]=0x55a54e531500
+[1752213796.022401] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1274 UCX  DEBUG ep 0x7f66465a5200: purge uct_ep[1]=0x55a54f19eed0
+[1752213796.022402] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x7f66465a5200: destroy
+[1752213796.022402] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x7f66465a5200: cleanup lanes
+[1752213796.022403] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5200: pending & destroy uct_ep[0]=0x55a54e531500
+[1752213796.022404] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5200: unprogress iface 0x55a54bf31c10 sysv/memory
+[1752213796.022413] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x7f66465a5200: pending & destroy uct_ep[1]=0x55a54f19eed0
+[1752213796.022414] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x7f66465a5200: unprogress iface 0x55a54bf335b0 cma/memory
+[1752213796.022416] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]      ucp_worker.c:2833 UCX  DEBUG worker 0x55a54bf0eb10: destroy internal endpoints
+[1752213796.022417] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]      ucp_worker.c:237  UCX  DEBUG worker 0x55a54bf0eb10: remove active message handlers
+[1752213796.022470] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023685] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023695] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023696] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023706] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023760] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023783] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023785] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023786] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023787] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023797] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023816] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023818] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023819] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023819] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023829] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023847] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023849] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023850] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023851] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023860] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023878] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023880] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023881] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023881] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023890] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023908] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023913] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023914] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023915] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023923] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023941] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023943] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023944] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023945] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023953] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.023972] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.023975] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.023976] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.023977] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.023985] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.024004] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.024006] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.024007] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.024007] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.024016] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.024034] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.024036] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.024037] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.024040] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.024049] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.024067] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.024069] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.024069] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.024070] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.024078] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.024096] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.024098] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.024099] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.024100] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.024108] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of eth0 is UNKNOWN, assuming 100 Mbps
+[1752213796.024126] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:791  UCX  DEBUG /sys/class/net/eth0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2'
+[1752213796.024128] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:431  UCX  DEBUG failed to open /sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width: No such file or directory
+[1752213796.024129] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]             sys.c:1644 UCX  DEBUG eth0: could not read from '/sys/devices/pci0000:00/0000:00:03.0/0000:03:01.0/virtio2/current_link_width'
+[1752213796.024130] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG eth0: pci bandwidth undetected, using maximal value
+[1752213796.024141] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024143] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024172] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024173] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024184] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024186] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024202] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024202] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024215] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024217] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024233] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024233] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024242] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024244] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024259] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024260] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024269] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024271] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024287] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024287] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024297] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024298] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024314] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024315] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024323] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024325] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024341] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024341] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024350] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024352] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024368] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024369] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024378] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024380] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024396] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024399] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024408] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024409] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024424] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024425] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024434] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024436] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024451] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024452] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024461] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024462] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024478] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024478] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024489] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1752213796.024490] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1752213796.024505] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1752213796.024506] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1752213796.024551] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_reg_bufs destroyed
+[1752213796.024565] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1752213796.024567] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1752213796.024567] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1752213796.024568] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_rkeys destroyed
+[1752213796.024592] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool ucp_requests destroyed
+[1752213796.024612] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool self_msg_desc destroyed
+[1752213796.024659] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf2efb0 [id=92 ref 1] ???() from hash
+[1752213796.024660] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf2efb0 [id=92 ref 1] ???()
+[1752213796.024666] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf2efb0 [id=92 ref 0] ???()
+[1752213796.024669] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]       tcp_iface.c:838  UCX  DEBUG tcp_iface 0x55a54bf2ff50: destroying
+[1752213796.024681] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf0be50 [id=93 ref 1] ???() from hash
+[1752213796.024682] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf0be50 [id=93 ref 1] ???()
+[1752213796.024685] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf0be50 [id=93 ref 0] ???()
+[1752213796.024690] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_rx_buf_mp destroyed
+[1752213796.024691] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_tx_buf_mp destroyed
+[1752213796.024703] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf0b110 [id=94 ref 1] ???() from hash
+[1752213796.024704] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf0b110 [id=94 ref 1] ???()
+[1752213796.024706] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf0b110 [id=94 ref 0] ???()
+[1752213796.024708] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]       tcp_iface.c:838  UCX  DEBUG tcp_iface 0x55a54bf30ee0: destroying
+[1752213796.024710] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf0c900 [id=95 ref 1] ???() from hash
+[1752213796.024711] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf0c900 [id=95 ref 1] ???()
+[1752213796.024713] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf0c900 [id=95 ref 0] ???()
+[1752213796.024714] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_rx_buf_mp destroyed
+[1752213796.024714] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_tx_buf_mp destroyed
+[1752213796.024719] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf0afc0 [id=96 ref 1] ???() from hash
+[1752213796.024720] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf0afc0 [id=96 ref 1] ???()
+[1752213796.024722] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf0afc0 [id=96 ref 0] ???()
+[1752213796.024917] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool mm_recv_desc destroyed
+[1752213796.024940] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:156  UCX  DEBUG removed async handler 0x55a54bf0b030 [id=98 ref 1] ???() from hash
+[1752213796.024941] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:546  UCX  DEBUG removing async handler 0x55a54bf0b030 [id=98 ref 1] ???()
+[1752213796.024943] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:171  UCX  DEBUG release async handler 0x55a54bf0b030 [id=98 ref 0] ???()
+[1752213796.025462] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool mm_recv_desc destroyed
+[1752213796.025489] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool uct_scopy_iface_tx_mp destroyed
+[1752213796.025774] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]         pgtable.c:618  UCX  DEBUG purge empty page table
+[1752213796.025775] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           mpool.c:194  UCX  DEBUG mpool rcache_mp destroyed
+[1752213796.245648] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]           async.c:679  UCX  DIAG  async handler table is not empty during exit (contains 1 elems)
+[1752213796.245659] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          thread.c:433  UCX  DIAG  async thread still running (use count 1)
+[1752213796.245660] [computeinstance-e00mwfrz2mn8791mzn:4065302:0]          thread.c:433  UCX  DIAG  async thread still running (use count 1)

@@ -1,0 +1,446 @@
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+[07/11/2025-05:52:17] [TRT-LLM] [I] Preparing to run throughput benchmark...
+[07/11/2025-05:52:18] [TRT-LLM] [I] Setting up benchmarker and infrastructure.
+[07/11/2025-05:52:18] [TRT-LLM] [I] Initializing Throughput Benchmark. [rate=-1 req/s]
+[07/11/2025-05:52:18] [TRT-LLM] [I] Ready to start benchmark.
+[07/11/2025-05:52:18] [TRT-LLM] [I] Initializing Executor.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initializing MPI with thread mode 3
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][INFO] Initialized MPI
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][WARNING] Setting cudaGraphCacheSize to a value greater than 0 without enabling cudaGraphMode has no effect.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Engine version 0.16.0 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 4
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 5
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 3
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 0
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 7
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 1
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 6
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 2
+[TensorRT-LLM][INFO] Rank 3 is using GPU 3
+[TensorRT-LLM][INFO] Rank 1 is using GPU 1
+[TensorRT-LLM][INFO] Rank 4 is using GPU 4
+[TensorRT-LLM][INFO] Rank 7 is using GPU 7
+[TensorRT-LLM][INFO] Rank 5 is using GPU 5
+[TensorRT-LLM][INFO] Rank 6 is using GPU 6
+[TensorRT-LLM][INFO] MPI size: 8, MPI local size: 8, rank: 0
+[TensorRT-LLM][INFO] Rank 0 is using GPU 0
+[TensorRT-LLM][INFO] Rank 2 is using GPU 2
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 2048
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 1
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 25000
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: (25000) * 80
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] TRTGptModel maxNumTokens: 8192
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 24999  = maxSequenceLen - 1 since chunked context is enabled
+[TensorRT-LLM][INFO] TRTGptModel If model type is encoder, maxInputLen would be reset in trtEncoderModel to maxInputLen: 25000 = maxSequenceLen.
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: GUARANTEED_NO_EVICT
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: FIRST_COME_FIRST_SERVED
+[TensorRT-LLM][INFO] Loaded engine size: 8925 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8941 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8939 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8937 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8933 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8932 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8940 MiB
+[TensorRT-LLM][INFO] Loaded engine size: 8937 MiB
+[TensorRT-LLM][INFO] Detecting local TP group for rank 4
+[TensorRT-LLM][INFO] Detecting local TP group for rank 6
+[TensorRT-LLM][INFO] TP group is intra-node for rank 6
+[TensorRT-LLM][INFO] Detecting local TP group for rank 0
+[TensorRT-LLM][INFO] TP group is intra-node for rank 0
+[TensorRT-LLM][INFO] Detecting local TP group for rank 2
+[TensorRT-LLM][INFO] TP group is intra-node for rank 2
+[TensorRT-LLM][INFO] TP group is intra-node for rank 4
+[TensorRT-LLM][INFO] Detecting local TP group for rank 3
+[TensorRT-LLM][INFO] TP group is intra-node for rank 3
+[TensorRT-LLM][INFO] Detecting local TP group for rank 5
+[TensorRT-LLM][INFO] TP group is intra-node for rank 5
+[TensorRT-LLM][INFO] Detecting local TP group for rank 1
+[TensorRT-LLM][INFO] TP group is intra-node for rank 1
+[TensorRT-LLM][INFO] Detecting local TP group for rank 7
+[TensorRT-LLM][INFO] TP group is intra-node for rank 7
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] Inspecting the engine to identify potential runtime issues...
+[TensorRT-LLM][INFO] The profiling verbosity of the engine does not allow this analysis to proceed. Re-build the engine with 'detailed' profiling verbosity to get more diagnostics.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1013.01 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 1. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 2. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 3. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 1, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 4. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +0, now: CPU 2, GPU 8727 (MiB)
+[TensorRT-LLM][INFO] Switching optimization profile from: 0 to 5. Please ensure there are no enqueued operations pending in this context prior to switching profiles
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 57.87 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 1.63 GB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.41 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.38 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.64 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.39 GiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 3.30 GB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 79.10 GiB, available: 61.40 GiB
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 42668
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 391
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 52.08 GiB for max tokens in paged KV cache (2730752).
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[TensorRT-LLM][INFO] Executor instance created by worker
+[07/11/2025-05:52:49] [TRT-LLM] [I] WAITING ON EXECUTOR...
+[07/11/2025-05:52:49] [TRT-LLM] [I] Starting response daemon...
+[07/11/2025-05:52:49] [TRT-LLM] [I] Executor started.
+[07/11/2025-05:52:49] [TRT-LLM] [I] WAITING ON BACKEND TO BE READY...
+[07/11/2025-05:52:49] [TRT-LLM] [I] Request serving started.
+[07/11/2025-05:52:49] [TRT-LLM] [I] Starting statistics collection.
+[07/11/2025-05:52:49] [TRT-LLM] [I] Benchmark started.
+[07/11/2025-05:52:49] [TRT-LLM] [I] Collecting live stats...
+[07/11/2025-05:52:50] [TRT-LLM] [I] Request serving stopped.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Collecting last stats...
+[07/11/2025-05:57:25] [TRT-LLM] [I] Ending statistics collection.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Stop received.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Stopping response parsing.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Collecting last responses before shutdown.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Completed request parsing.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Parsing stopped.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Request generator successfully joined.
+[07/11/2025-05:57:25] [TRT-LLM] [I] Statistics process successfully joined.
+[07/11/2025-05:57:25] [TRT-LLM] [I] 
+
+===========================================================
+= ENGINE DETAILS
+===========================================================
+Model:			meta-llama/Llama-3.1-70B-Instruct
+Engine Directory:	/tmp/meta-llama/Llama-3.1-70B-Instruct/tp_8_pp_1
+TensorRT-LLM Version:	0.16.0
+Dtype:			bfloat16
+KV Cache Dtype:		FP8
+Quantization:		FP8
+Max Sequence Length:	25000
+
+===========================================================
+= WORLD + RUNTIME INFORMATION 
+===========================================================
+TP Size:		8
+PP Size:		1
+Max Runtime Batch Size:	2048
+Max Runtime Tokens:	8192
+Scheduling Policy:	Guaranteed No Evict
+KV Memory Percentage:	90.00%
+Issue Rate (req/sec):	2.6706E+13
+
+===========================================================
+= PERFORMANCE OVERVIEW 
+===========================================================
+Number of requests:		15000
+Average Input Length (tokens):	256.0000
+Average Output Length (tokens):	256.0000
+Token Throughput (tokens/sec):	13933.3531
+Request Throughput (req/sec):	54.4272
+Total Latency (ms):		275597.6961
+
+===========================================================
+
+[07/11/2025-05:57:25] [TRT-LLM] [I] Benchmark Shutdown called!
+[07/11/2025-05:57:25] [TRT-LLM] [I] Shutting down ExecutorServer.
+[TensorRT-LLM][INFO] Orchestrator sendReq thread exiting
+[TensorRT-LLM][INFO] Orchestrator recv thread exiting
+[07/11/2025-05:57:25] [TRT-LLM] [I] Executor shutdown.
+[TensorRT-LLM][INFO] Leader recvReq thread exiting
+[TensorRT-LLM][INFO] Leader sendThread exiting
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session
+[TensorRT-LLM][INFO] Refreshed the MPI local session

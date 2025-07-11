@@ -1,0 +1,260 @@
+=== TensorRT-LLM Comprehensive Test Started ===
+Start Time: Fri Jul 11 04:27:26 UTC 2025
+
+Fri Jul 11 04:27:26 UTC 2025: Starting Config 1: ISL=128, OSL=128, Requests=30000
+Fri Jul 11 04:27:32 UTC 2025: Dataset created successfully: 30000 lines
+Fri Jul 11 04:32:40 UTC 2025: Benchmark completed successfully
+Fri Jul 11 04:32:40 UTC 2025: Results - Throughput: 14389.7989 tokens/sec, Latency: 266855.7100 ms
+Fri Jul 11 04:32:41 UTC 2025: Starting Config 2: ISL=128, OSL=256, Requests=20000
+Fri Jul 11 04:32:46 UTC 2025: Dataset created successfully: 20000 lines
+Fri Jul 11 04:38:19 UTC 2025: Benchmark completed successfully
+Fri Jul 11 04:38:19 UTC 2025: Results - Throughput: 17602.0571 tokens/sec, Latency: 290875.0935 ms
+Fri Jul 11 04:38:20 UTC 2025: Starting Config 3: ISL=128, OSL=512, Requests=15000
+Fri Jul 11 04:38:25 UTC 2025: Dataset created successfully: 15000 lines
+Fri Jul 11 04:45:42 UTC 2025: Benchmark completed successfully
+Fri Jul 11 04:45:42 UTC 2025: Results - Throughput: 19327.0773 tokens/sec, Latency: 397369.9631 ms
+Fri Jul 11 04:45:43 UTC 2025: Starting Config 4: ISL=128, OSL=1024, Requests=7500
+Fri Jul 11 04:45:47 UTC 2025: Dataset created successfully: 7500 lines
+Fri Jul 11 04:52:56 UTC 2025: Benchmark completed successfully
+Fri Jul 11 04:52:56 UTC 2025: Results - Throughput: 19787.6318 tokens/sec, Latency: 388121.2295 ms
+Fri Jul 11 04:52:57 UTC 2025: Starting Config 5: ISL=128, OSL=2048, Requests=3000
+Fri Jul 11 04:53:01 UTC 2025: Dataset created successfully: 3000 lines
+Fri Jul 11 04:59:44 UTC 2025: Benchmark completed successfully
+Fri Jul 11 04:59:45 UTC 2025: Results - Throughput: 16901.8790 tokens/sec, Latency: 363509.8785 ms
+Fri Jul 11 04:59:46 UTC 2025: Starting Config 6: ISL=128, OSL=4096, Requests=1500
+Fri Jul 11 04:59:50 UTC 2025: Dataset created successfully: 1500 lines
+Fri Jul 11 05:08:44 UTC 2025: Benchmark completed successfully
+Fri Jul 11 05:08:44 UTC 2025: Results - Throughput: 12427.8444 tokens/sec, Latency: 494373.7486 ms
+Fri Jul 11 05:08:45 UTC 2025: Starting Config 7: ISL=128, OSL=8192, Requests=750
+Fri Jul 11 05:08:49 UTC 2025: Dataset created successfully: 750 lines
+Fri Jul 11 05:22:22 UTC 2025: Benchmark completed successfully
+Fri Jul 11 05:22:22 UTC 2025: Results - Throughput: 7944.3036 tokens/sec, Latency: 773384.3421 ms
+Fri Jul 11 05:22:23 UTC 2025: Starting Config 8: ISL=128, OSL=16384, Requests=400
+Fri Jul 11 05:22:27 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 05:47:06 UTC 2025: Benchmark completed successfully
+Fri Jul 11 05:47:06 UTC 2025: Results - Throughput: 4557.7445 tokens/sec, Latency: 1437904.2065 ms
+Fri Jul 11 05:47:07 UTC 2025: Starting Config 9: ISL=256, OSL=128, Requests=20000
+Fri Jul 11 05:47:13 UTC 2025: Dataset created successfully: 20000 lines
+Fri Jul 11 05:52:03 UTC 2025: Benchmark completed successfully
+Fri Jul 11 05:52:03 UTC 2025: Results - Throughput: 10269.1929 tokens/sec, Latency: 249289.3078 ms
+Fri Jul 11 05:52:04 UTC 2025: Starting Config 10: ISL=256, OSL=256, Requests=15000
+Fri Jul 11 05:52:10 UTC 2025: Dataset created successfully: 15000 lines
+Fri Jul 11 05:57:26 UTC 2025: Benchmark completed successfully
+Fri Jul 11 05:57:26 UTC 2025: Results - Throughput: 13933.3531 tokens/sec, Latency: 275597.6961 ms
+Fri Jul 11 05:57:27 UTC 2025: Starting Config 11: ISL=256, OSL=512, Requests=10000
+Fri Jul 11 05:57:32 UTC 2025: Dataset created successfully: 10000 lines
+Fri Jul 11 06:03:16 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:03:16 UTC 2025: Results - Throughput: 16891.9057 tokens/sec, Latency: 303103.7524 ms
+Fri Jul 11 06:03:17 UTC 2025: Starting Config 12: ISL=256, OSL=1024, Requests=6000
+Fri Jul 11 06:03:21 UTC 2025: Dataset created successfully: 6000 lines
+Fri Jul 11 06:09:37 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:09:38 UTC 2025: Results - Throughput: 18340.1119 tokens/sec, Latency: 335003.4077 ms
+Fri Jul 11 06:09:39 UTC 2025: Starting Config 13: ISL=256, OSL=2048, Requests=2500
+Fri Jul 11 06:09:42 UTC 2025: Dataset created successfully: 2500 lines
+Fri Jul 11 06:15:56 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:15:56 UTC 2025: Results - Throughput: 15457.6309 tokens/sec, Latency: 331227.9896 ms
+Fri Jul 11 06:15:57 UTC 2025: Starting Config 14: ISL=256, OSL=4096, Requests=1200
+Fri Jul 11 06:16:01 UTC 2025: Dataset created successfully: 1200 lines
+Fri Jul 11 06:24:08 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:24:08 UTC 2025: Results - Throughput: 11022.7219 tokens/sec, Latency: 445915.2709 ms
+Fri Jul 11 06:24:09 UTC 2025: Starting Config 15: ISL=256, OSL=8192, Requests=600
+Fri Jul 11 06:24:13 UTC 2025: Dataset created successfully: 600 lines
+Fri Jul 11 06:36:39 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:36:39 UTC 2025: Results - Throughput: 6972.8301 tokens/sec, Latency: 704907.4704 ms
+Fri Jul 11 06:36:40 UTC 2025: Starting Config 16: ISL=256, OSL=16384, Requests=300
+Fri Jul 11 06:36:44 UTC 2025: Dataset created successfully: 300 lines
+Fri Jul 11 06:55:16 UTC 2025: Benchmark completed successfully
+Fri Jul 11 06:55:16 UTC 2025: Results - Throughput: 4591.1936 tokens/sec, Latency: 1070571.2711 ms
+Fri Jul 11 06:55:17 UTC 2025: Starting Config 17: ISL=512, OSL=128, Requests=15000
+Fri Jul 11 06:55:23 UTC 2025: Dataset created successfully: 15000 lines
+Fri Jul 11 07:01:05 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:01:05 UTC 2025: Results - Throughput: 6393.6937 tokens/sec, Latency: 300295.9008 ms
+Fri Jul 11 07:01:06 UTC 2025: Starting Config 18: ISL=512, OSL=256, Requests=10000
+Fri Jul 11 07:01:12 UTC 2025: Dataset created successfully: 10000 lines
+Fri Jul 11 07:06:13 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:06:13 UTC 2025: Results - Throughput: 9880.3580 tokens/sec, Latency: 259099.9222 ms
+Fri Jul 11 07:06:14 UTC 2025: Starting Config 19: ISL=512, OSL=512, Requests=7500
+Fri Jul 11 07:06:19 UTC 2025: Dataset created successfully: 7500 lines
+Fri Jul 11 07:11:51 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:11:51 UTC 2025: Results - Throughput: 13240.2682 tokens/sec, Latency: 290024.3372 ms
+Fri Jul 11 07:11:52 UTC 2025: Starting Config 20: ISL=512, OSL=1024, Requests=5000
+Fri Jul 11 07:11:57 UTC 2025: Dataset created successfully: 5000 lines
+Fri Jul 11 07:18:11 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:18:11 UTC 2025: Results - Throughput: 15348.7925 tokens/sec, Latency: 333576.7286 ms
+Fri Jul 11 07:18:12 UTC 2025: Starting Config 21: ISL=512, OSL=2048, Requests=2000
+Fri Jul 11 07:18:16 UTC 2025: Dataset created successfully: 2000 lines
+Fri Jul 11 07:23:34 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:23:34 UTC 2025: Results - Throughput: 14769.9081 tokens/sec, Latency: 277320.6148 ms
+Fri Jul 11 07:23:35 UTC 2025: Starting Config 22: ISL=512, OSL=4096, Requests=1000
+Fri Jul 11 07:23:39 UTC 2025: Dataset created successfully: 1000 lines
+Fri Jul 11 07:30:13 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:30:13 UTC 2025: Results - Throughput: 11587.5074 tokens/sec, Latency: 353484.1338 ms
+Fri Jul 11 07:30:14 UTC 2025: Starting Config 23: ISL=512, OSL=8192, Requests=500
+Fri Jul 11 07:30:18 UTC 2025: Dataset created successfully: 500 lines
+Fri Jul 11 07:39:51 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:39:51 UTC 2025: Results - Throughput: 7689.5655 tokens/sec, Latency: 532669.8877 ms
+Fri Jul 11 07:39:52 UTC 2025: Starting Config 24: ISL=512, OSL=16384, Requests=250
+Fri Jul 11 07:39:56 UTC 2025: Dataset created successfully: 250 lines
+Fri Jul 11 07:56:27 UTC 2025: Benchmark completed successfully
+Fri Jul 11 07:56:27 UTC 2025: Results - Throughput: 4308.2491 tokens/sec, Latency: 950734.2559 ms
+Fri Jul 11 07:56:28 UTC 2025: Starting Config 25: ISL=1024, OSL=128, Requests=7500
+Fri Jul 11 07:56:35 UTC 2025: Dataset created successfully: 7500 lines
+Fri Jul 11 08:01:46 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:01:46 UTC 2025: Results - Throughput: 3575.3588 tokens/sec, Latency: 268504.5182 ms
+Fri Jul 11 08:01:47 UTC 2025: Starting Config 26: ISL=1024, OSL=256, Requests=6000
+Fri Jul 11 08:01:52 UTC 2025: Dataset created successfully: 6000 lines
+Fri Jul 11 08:06:43 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:06:43 UTC 2025: Results - Throughput: 6122.1106 tokens/sec, Latency: 250893.8668 ms
+Fri Jul 11 08:06:44 UTC 2025: Starting Config 27: ISL=1024, OSL=512, Requests=5000
+Fri Jul 11 08:06:50 UTC 2025: Dataset created successfully: 5000 lines
+Fri Jul 11 08:12:11 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:12:11 UTC 2025: Results - Throughput: 9151.6986 tokens/sec, Latency: 279729.4934 ms
+Fri Jul 11 08:12:12 UTC 2025: Starting Config 28: ISL=1024, OSL=1024, Requests=3000
+Fri Jul 11 08:12:17 UTC 2025: Dataset created successfully: 3000 lines
+Fri Jul 11 08:17:40 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:17:40 UTC 2025: Results - Throughput: 10893.8728 tokens/sec, Latency: 281993.3779 ms
+Fri Jul 11 08:17:41 UTC 2025: Starting Config 29: ISL=1024, OSL=2048, Requests=1500
+Fri Jul 11 08:17:46 UTC 2025: Dataset created successfully: 1500 lines
+Fri Jul 11 08:23:02 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:23:02 UTC 2025: Results - Throughput: 11168.3798 tokens/sec, Latency: 275062.2790 ms
+Fri Jul 11 08:23:03 UTC 2025: Starting Config 30: ISL=1024, OSL=4096, Requests=800
+Fri Jul 11 08:23:07 UTC 2025: Dataset created successfully: 800 lines
+Fri Jul 11 08:29:38 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:29:38 UTC 2025: Results - Throughput: 9328.1862 tokens/sec, Latency: 351279.4360 ms
+Fri Jul 11 08:29:39 UTC 2025: Starting Config 31: ISL=1024, OSL=8192, Requests=400
+Fri Jul 11 08:29:44 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 08:39:02 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:39:02 UTC 2025: Results - Throughput: 6342.7037 tokens/sec, Latency: 516625.1093 ms
+Fri Jul 11 08:39:03 UTC 2025: Starting Config 32: ISL=1024, OSL=16384, Requests=200
+Fri Jul 11 08:39:07 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 08:53:44 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:53:44 UTC 2025: Results - Throughput: 3919.0053 tokens/sec, Latency: 836130.5389 ms
+Fri Jul 11 08:53:45 UTC 2025: Starting Config 33: ISL=2048, OSL=128, Requests=3000
+Fri Jul 11 08:53:51 UTC 2025: Dataset created successfully: 3000 lines
+Fri Jul 11 08:57:54 UTC 2025: Benchmark completed successfully
+Fri Jul 11 08:57:54 UTC 2025: Results - Throughput: 1899.9652 tokens/sec, Latency: 202108.9671 ms
+Fri Jul 11 08:57:55 UTC 2025: Starting Config 34: ISL=2048, OSL=256, Requests=2500
+Fri Jul 11 08:58:01 UTC 2025: Dataset created successfully: 2500 lines
+Fri Jul 11 09:01:51 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:01:51 UTC 2025: Results - Throughput: 3384.8812 tokens/sec, Latency: 189076.0602 ms
+Fri Jul 11 09:01:52 UTC 2025: Starting Config 35: ISL=2048, OSL=512, Requests=2000
+Fri Jul 11 09:01:57 UTC 2025: Dataset created successfully: 2000 lines
+Fri Jul 11 09:05:44 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:05:44 UTC 2025: Results - Throughput: 5476.9319 tokens/sec, Latency: 186965.9893 ms
+Fri Jul 11 09:05:45 UTC 2025: Starting Config 36: ISL=2048, OSL=1024, Requests=1500
+Fri Jul 11 09:05:50 UTC 2025: Dataset created successfully: 1500 lines
+Fri Jul 11 09:09:59 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:09:59 UTC 2025: Results - Throughput: 7338.2404 tokens/sec, Latency: 209314.4823 ms
+Fri Jul 11 09:10:00 UTC 2025: Starting Config 37: ISL=2048, OSL=2048, Requests=1500
+Fri Jul 11 09:10:05 UTC 2025: Dataset created successfully: 1500 lines
+Fri Jul 11 09:16:41 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:16:41 UTC 2025: Results - Throughput: 8686.7633 tokens/sec, Latency: 353641.4981 ms
+Fri Jul 11 09:16:42 UTC 2025: Starting Config 38: ISL=2048, OSL=4096, Requests=750
+Fri Jul 11 09:16:46 UTC 2025: Dataset created successfully: 750 lines
+Fri Jul 11 09:24:01 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:24:01 UTC 2025: Results - Throughput: 7824.0645 tokens/sec, Latency: 392634.7979 ms
+Fri Jul 11 09:24:02 UTC 2025: Starting Config 39: ISL=2048, OSL=8192, Requests=400
+Fri Jul 11 09:24:07 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 09:34:05 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:34:05 UTC 2025: Results - Throughput: 5877.8341 tokens/sec, Latency: 557484.2653 ms
+Fri Jul 11 09:34:06 UTC 2025: Starting Config 40: ISL=2048, OSL=16384, Requests=200
+Fri Jul 11 09:34:11 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 09:49:32 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:49:32 UTC 2025: Results - Throughput: 3723.6042 tokens/sec, Latency: 880007.5924 ms
+Fri Jul 11 09:49:33 UTC 2025: Starting Config 41: ISL=4096, OSL=128, Requests=1500
+Fri Jul 11 09:49:39 UTC 2025: Dataset created successfully: 1500 lines
+Fri Jul 11 09:53:41 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:53:41 UTC 2025: Results - Throughput: 969.2499 tokens/sec, Latency: 198091.3220 ms
+Fri Jul 11 09:53:42 UTC 2025: Starting Config 42: ISL=4096, OSL=256, Requests=1200
+Fri Jul 11 09:53:47 UTC 2025: Dataset created successfully: 1200 lines
+Fri Jul 11 09:57:22 UTC 2025: Benchmark completed successfully
+Fri Jul 11 09:57:22 UTC 2025: Results - Throughput: 1777.0350 tokens/sec, Latency: 172872.2273 ms
+Fri Jul 11 09:57:23 UTC 2025: Starting Config 43: ISL=4096, OSL=512, Requests=1000
+Fri Jul 11 09:57:28 UTC 2025: Dataset created successfully: 1000 lines
+Fri Jul 11 10:00:58 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:00:58 UTC 2025: Results - Throughput: 3018.6328 tokens/sec, Latency: 169613.2124 ms
+Fri Jul 11 10:00:59 UTC 2025: Starting Config 44: ISL=4096, OSL=1024, Requests=800
+Fri Jul 11 10:01:04 UTC 2025: Dataset created successfully: 800 lines
+Fri Jul 11 10:04:51 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:04:51 UTC 2025: Results - Throughput: 4391.1951 tokens/sec, Latency: 186555.1358 ms
+Fri Jul 11 10:04:52 UTC 2025: Starting Config 45: ISL=4096, OSL=2048, Requests=750
+Fri Jul 11 10:04:58 UTC 2025: Dataset created successfully: 750 lines
+Fri Jul 11 10:10:16 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:10:16 UTC 2025: Results - Throughput: 5565.0000 tokens/sec, Latency: 276010.7794 ms
+Fri Jul 11 10:10:17 UTC 2025: Starting Config 46: ISL=4096, OSL=4096, Requests=400
+Fri Jul 11 10:10:22 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 10:16:16 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:16:16 UTC 2025: Results - Throughput: 5220.4238 tokens/sec, Latency: 313844.2505 ms
+Fri Jul 11 10:16:17 UTC 2025: Starting Config 47: ISL=4096, OSL=8192, Requests=200
+Fri Jul 11 10:16:21 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 10:22:18 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:22:18 UTC 2025: Results - Throughput: 5168.4167 tokens/sec, Latency: 317002.3036 ms
+Fri Jul 11 10:22:19 UTC 2025: Starting Config 48: ISL=4096, OSL=16384, Requests=100
+Fri Jul 11 10:22:23 UTC 2025: Dataset created successfully: 100 lines
+Fri Jul 11 10:31:06 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:31:06 UTC 2025: Results - Throughput: 3398.8834 tokens/sec, Latency: 482040.6671 ms
+Fri Jul 11 10:31:07 UTC 2025: Starting Config 49: ISL=8192, OSL=128, Requests=750
+Fri Jul 11 10:31:13 UTC 2025: Dataset created successfully: 750 lines
+Fri Jul 11 10:35:16 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:35:16 UTC 2025: Results - Throughput: 476.9840 tokens/sec, Latency: 201264.5916 ms
+Fri Jul 11 10:35:17 UTC 2025: Starting Config 50: ISL=8192, OSL=256, Requests=600
+Fri Jul 11 10:35:22 UTC 2025: Dataset created successfully: 600 lines
+Fri Jul 11 10:38:56 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:38:56 UTC 2025: Results - Throughput: 899.6148 tokens/sec, Latency: 170739.7354 ms
+Fri Jul 11 10:38:57 UTC 2025: Starting Config 51: ISL=8192, OSL=512, Requests=500
+Fri Jul 11 10:39:02 UTC 2025: Dataset created successfully: 500 lines
+Fri Jul 11 10:42:27 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:42:27 UTC 2025: Results - Throughput: 1565.9897 tokens/sec, Latency: 163474.8891 ms
+Fri Jul 11 10:42:28 UTC 2025: Starting Config 52: ISL=8192, OSL=1024, Requests=400
+Fri Jul 11 10:42:34 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 10:46:07 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:46:07 UTC 2025: Results - Throughput: 2379.9472 tokens/sec, Latency: 172104.6606 ms
+Fri Jul 11 10:46:08 UTC 2025: Starting Config 53: ISL=8192, OSL=2048, Requests=400
+Fri Jul 11 10:46:23 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 10:51:17 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:51:17 UTC 2025: Results - Throughput: 3259.0559 tokens/sec, Latency: 251361.1344 ms
+Fri Jul 11 10:51:18 UTC 2025: Starting Config 54: ISL=8192, OSL=4096, Requests=200
+Fri Jul 11 10:51:23 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 10:55:35 UTC 2025: Benchmark completed successfully
+Fri Jul 11 10:55:35 UTC 2025: Results - Throughput: 3887.4343 tokens/sec, Latency: 210730.2519 ms
+Fri Jul 11 10:55:36 UTC 2025: Starting Config 55: ISL=8192, OSL=8192, Requests=150
+Fri Jul 11 10:55:40 UTC 2025: Dataset created successfully: 150 lines
+Fri Jul 11 11:02:05 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:02:05 UTC 2025: Results - Throughput: 3565.5170 tokens/sec, Latency: 344634.4570 ms
+Fri Jul 11 11:02:06 UTC 2025: Starting Config 56: ISL=8192, OSL=16384, Requests=75
+Fri Jul 11 11:02:10 UTC 2025: Dataset created successfully: 75 lines
+Fri Jul 11 11:10:55 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:10:55 UTC 2025: Results - Throughput: 2530.3923 tokens/sec, Latency: 485616.3981 ms
+Fri Jul 11 11:10:56 UTC 2025: Starting Config 57: ISL=16384, OSL=128, Requests=400
+Fri Jul 11 11:11:02 UTC 2025: Dataset created successfully: 400 lines
+Fri Jul 11 11:15:27 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:15:27 UTC 2025: Results - Throughput: 230.4083 tokens/sec, Latency: 222214.2509 ms
+Fri Jul 11 11:15:28 UTC 2025: Starting Config 58: ISL=16384, OSL=256, Requests=300
+Fri Jul 11 11:15:34 UTC 2025: Dataset created successfully: 300 lines
+Fri Jul 11 11:19:10 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:19:10 UTC 2025: Results - Throughput: 438.7363 tokens/sec, Latency: 175048.1827 ms
+Fri Jul 11 11:19:11 UTC 2025: Starting Config 59: ISL=16384, OSL=512, Requests=250
+Fri Jul 11 11:19:16 UTC 2025: Dataset created successfully: 250 lines
+Fri Jul 11 11:22:41 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:22:41 UTC 2025: Results - Throughput: 774.3481 tokens/sec, Latency: 165300.3285 ms
+Fri Jul 11 11:22:42 UTC 2025: Starting Config 60: ISL=16384, OSL=1024, Requests=200
+Fri Jul 11 11:22:47 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 11:26:17 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:26:17 UTC 2025: Results - Throughput: 1224.7921 tokens/sec, Latency: 167212.0584 ms
+Fri Jul 11 11:26:18 UTC 2025: Starting Config 61: ISL=16384, OSL=2048, Requests=200
+Fri Jul 11 11:26:23 UTC 2025: Dataset created successfully: 200 lines
+Fri Jul 11 11:30:58 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:30:58 UTC 2025: Results - Throughput: 1747.7723 tokens/sec, Latency: 234355.4711 ms
+Fri Jul 11 11:30:59 UTC 2025: Starting Config 62: ISL=16384, OSL=4096, Requests=100
+Fri Jul 11 11:31:04 UTC 2025: Dataset created successfully: 100 lines
+Fri Jul 11 11:34:54 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:34:54 UTC 2025: Results - Throughput: 2149.8552 tokens/sec, Latency: 190524.4592 ms
+Fri Jul 11 11:34:55 UTC 2025: Starting Config 63: ISL=16384, OSL=8192, Requests=75
+Fri Jul 11 11:34:59 UTC 2025: Dataset created successfully: 75 lines
+Fri Jul 11 11:40:34 UTC 2025: Benchmark completed successfully
+Fri Jul 11 11:40:34 UTC 2025: Results - Throughput: 2089.9738 tokens/sec, Latency: 293974.9817 ms
+Fri Jul 11 11:40:35 UTC 2025: Starting Config 64: ISL=16384, OSL=16384, Requests=50
+Fri Jul 11 11:40:39 UTC 2025: Dataset created successfully: 50 lines
+Fri Jul 11 11:40:47 UTC 2025: Benchmark FAILED
+Fri Jul 11 11:40:48 UTC 2025: All configurations completed successfully
+=== Test completed ===
