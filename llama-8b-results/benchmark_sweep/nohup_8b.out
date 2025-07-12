@@ -1,0 +1,19 @@
+nohup: ignoring input
+[2025-07-12 00:07:14] Starting TensorRT-LLM Benchmark Sweep for 8B Model
+[2025-07-12 00:07:14] Model: meta-llama/Llama-3.1-8B-Instruct
+[2025-07-12 00:07:14] Configuration: TP=1, PP=1, Quantization=FP8
+[2025-07-12 00:07:14] Engine Directory: /tmp/meta-llama/Llama-3.1-8B-Instruct/tp_1_pp_1
+[2025-07-12 00:07:14] Total benchmarks to run: 62
+[2025-07-12 00:07:14] Starting benchmark sweep...
+[2025-07-12 00:07:14] Starting benchmark: ISL=128, OSL=128, Requests=30000
+[2025-07-12 00:07:14] Generating synthetic dataset...
+[2025-07-12 00:07:15] Running benchmark...
+[2025-07-12 00:09:47] ✓ Benchmark completed: ISL=128, OSL=128, Requests=30000
+[2025-07-12 00:09:47] Benchmark successful, moving to next...
+
+[2025-07-12 00:09:47] Benchmark sweep completed!
+[2025-07-12 00:09:47] Total benchmarks: 62
+[2025-07-12 00:09:47] Completed: 1
+[2025-07-12 00:09:47] Failed: 0
+[2025-07-12 00:09:47] Success rate: 1%
+[2025-07-12 00:09:47] Benchmark sweep completed successfully!

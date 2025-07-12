@@ -1,0 +1,875 @@
+nohup: ignoring input
+=================================================
+Starting benchmark sweep at Fri Jul 11 00:20:17 UTC 2025
+Total configurations to process: 62
+=================================================
+Processing config 1/62: ISL=128, OSL=128, Requests=30000
+Dataset already exists: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_128_30000.jsonl
+Running benchmark for ISL=128, OSL=128, Requests=30000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 1/62
+Completed config 1/62
+---
+Processing config 2/62: ISL=128, OSL=256, Requests=20000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_256_20000.jsonl
+Created dataset with 20000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_256_20000.jsonl
+Running benchmark for ISL=128, OSL=256, Requests=20000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 2/62
+Completed config 2/62
+---
+Processing config 3/62: ISL=128, OSL=512, Requests=15000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_512_15000.jsonl
+Created dataset with 15000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_512_15000.jsonl
+Running benchmark for ISL=128, OSL=512, Requests=15000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 3/62
+Completed config 3/62
+---
+Processing config 4/62: ISL=128, OSL=1024, Requests=7500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_1024_7500.jsonl
+Created dataset with 7500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_1024_7500.jsonl
+Running benchmark for ISL=128, OSL=1024, Requests=7500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 4/62
+Completed config 4/62
+---
+Processing config 5/62: ISL=128, OSL=2048, Requests=3000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_2048_3000.jsonl
+Created dataset with 3000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_2048_3000.jsonl
+Running benchmark for ISL=128, OSL=2048, Requests=3000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 5/62
+Completed config 5/62
+---
+Processing config 6/62: ISL=128, OSL=4096, Requests=1500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_4096_1500.jsonl
+Created dataset with 1500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_4096_1500.jsonl
+Running benchmark for ISL=128, OSL=4096, Requests=1500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 6/62
+Completed config 6/62
+---
+Processing config 7/62: ISL=128, OSL=8192, Requests=750
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_8192_750.jsonl
+Created dataset with 750 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_8192_750.jsonl
+Running benchmark for ISL=128, OSL=8192, Requests=750
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 7/62
+Completed config 7/62
+---
+Processing config 8/62: ISL=128, OSL=16384, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_16384_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_128_16384_400.jsonl
+Running benchmark for ISL=128, OSL=16384, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 8/62
+Completed config 8/62
+---
+Processing config 9/62: ISL=256, OSL=128, Requests=20000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_128_20000.jsonl
+Created dataset with 20000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_128_20000.jsonl
+Running benchmark for ISL=256, OSL=128, Requests=20000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 9/62
+Completed config 9/62
+---
+Processing config 10/62: ISL=256, OSL=256, Requests=15000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_256_15000.jsonl
+Created dataset with 15000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_256_15000.jsonl
+Running benchmark for ISL=256, OSL=256, Requests=15000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 10/62
+Completed config 10/62
+---
+Processing config 11/62: ISL=256, OSL=512, Requests=10000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_512_10000.jsonl
+Created dataset with 10000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_512_10000.jsonl
+Running benchmark for ISL=256, OSL=512, Requests=10000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 11/62
+Completed config 11/62
+---
+Processing config 12/62: ISL=256, OSL=1024, Requests=6000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_1024_6000.jsonl
+Created dataset with 6000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_1024_6000.jsonl
+Running benchmark for ISL=256, OSL=1024, Requests=6000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 12/62
+Completed config 12/62
+---
+Processing config 13/62: ISL=256, OSL=2048, Requests=2500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_2048_2500.jsonl
+Created dataset with 2500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_2048_2500.jsonl
+Running benchmark for ISL=256, OSL=2048, Requests=2500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 13/62
+Completed config 13/62
+---
+Processing config 14/62: ISL=256, OSL=4096, Requests=1200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_4096_1200.jsonl
+Created dataset with 1200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_4096_1200.jsonl
+Running benchmark for ISL=256, OSL=4096, Requests=1200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 14/62
+Completed config 14/62
+---
+Processing config 15/62: ISL=256, OSL=8192, Requests=600
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_8192_600.jsonl
+Created dataset with 600 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_8192_600.jsonl
+Running benchmark for ISL=256, OSL=8192, Requests=600
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 15/62
+Completed config 15/62
+---
+Processing config 16/62: ISL=256, OSL=16384, Requests=300
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_16384_300.jsonl
+Created dataset with 300 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_256_16384_300.jsonl
+Running benchmark for ISL=256, OSL=16384, Requests=300
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 16/62
+Completed config 16/62
+---
+Processing config 17/62: ISL=512, OSL=128, Requests=15000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_128_15000.jsonl
+Created dataset with 15000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_128_15000.jsonl
+Running benchmark for ISL=512, OSL=128, Requests=15000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 17/62
+Completed config 17/62
+---
+Processing config 18/62: ISL=512, OSL=256, Requests=10000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_256_10000.jsonl
+Created dataset with 10000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_256_10000.jsonl
+Running benchmark for ISL=512, OSL=256, Requests=10000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 18/62
+Completed config 18/62
+---
+Processing config 19/62: ISL=512, OSL=512, Requests=7500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_512_7500.jsonl
+Created dataset with 7500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_512_7500.jsonl
+Running benchmark for ISL=512, OSL=512, Requests=7500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 19/62
+Completed config 19/62
+---
+Processing config 20/62: ISL=512, OSL=1024, Requests=5000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_1024_5000.jsonl
+Created dataset with 5000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_1024_5000.jsonl
+Running benchmark for ISL=512, OSL=1024, Requests=5000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 20/62
+Completed config 20/62
+---
+Processing config 21/62: ISL=512, OSL=2048, Requests=2000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_2048_2000.jsonl
+Created dataset with 2000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_2048_2000.jsonl
+Running benchmark for ISL=512, OSL=2048, Requests=2000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 21/62
+Completed config 21/62
+---
+Processing config 22/62: ISL=512, OSL=4096, Requests=1000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_4096_1000.jsonl
+Created dataset with 1000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_4096_1000.jsonl
+Running benchmark for ISL=512, OSL=4096, Requests=1000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 22/62
+Completed config 22/62
+---
+Processing config 23/62: ISL=512, OSL=8192, Requests=500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_8192_500.jsonl
+Created dataset with 500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_8192_500.jsonl
+Running benchmark for ISL=512, OSL=8192, Requests=500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 23/62
+Completed config 23/62
+---
+Processing config 24/62: ISL=512, OSL=16384, Requests=250
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_16384_250.jsonl
+Created dataset with 250 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_512_16384_250.jsonl
+Running benchmark for ISL=512, OSL=16384, Requests=250
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 24/62
+Completed config 24/62
+---
+Processing config 25/62: ISL=1024, OSL=128, Requests=7500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_128_7500.jsonl
+Created dataset with 7500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_128_7500.jsonl
+Running benchmark for ISL=1024, OSL=128, Requests=7500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 25/62
+Completed config 25/62
+---
+Processing config 26/62: ISL=1024, OSL=256, Requests=6000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_256_6000.jsonl
+Created dataset with 6000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_256_6000.jsonl
+Running benchmark for ISL=1024, OSL=256, Requests=6000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 26/62
+Completed config 26/62
+---
+Processing config 27/62: ISL=1024, OSL=512, Requests=5000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_512_5000.jsonl
+Created dataset with 5000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_512_5000.jsonl
+Running benchmark for ISL=1024, OSL=512, Requests=5000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 27/62
+Completed config 27/62
+---
+Processing config 28/62: ISL=1024, OSL=1024, Requests=3000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_1024_3000.jsonl
+Created dataset with 3000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_1024_3000.jsonl
+Running benchmark for ISL=1024, OSL=1024, Requests=3000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 28/62
+Completed config 28/62
+---
+Processing config 29/62: ISL=1024, OSL=2048, Requests=1500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_2048_1500.jsonl
+Created dataset with 1500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_2048_1500.jsonl
+Running benchmark for ISL=1024, OSL=2048, Requests=1500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 29/62
+Completed config 29/62
+---
+Processing config 30/62: ISL=1024, OSL=4096, Requests=800
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_4096_800.jsonl
+Created dataset with 800 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_4096_800.jsonl
+Running benchmark for ISL=1024, OSL=4096, Requests=800
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 30/62
+Completed config 30/62
+---
+Processing config 31/62: ISL=1024, OSL=8192, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_8192_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_8192_400.jsonl
+Running benchmark for ISL=1024, OSL=8192, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 31/62
+Completed config 31/62
+---
+Processing config 32/62: ISL=1024, OSL=16384, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_16384_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_1024_16384_200.jsonl
+Running benchmark for ISL=1024, OSL=16384, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 32/62
+Completed config 32/62
+---
+Processing config 33/62: ISL=2048, OSL=128, Requests=3000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_128_3000.jsonl
+Created dataset with 3000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_128_3000.jsonl
+Running benchmark for ISL=2048, OSL=128, Requests=3000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 33/62
+Completed config 33/62
+---
+Processing config 34/62: ISL=2048, OSL=256, Requests=2500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_256_2500.jsonl
+Created dataset with 2500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_256_2500.jsonl
+Running benchmark for ISL=2048, OSL=256, Requests=2500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 34/62
+Completed config 34/62
+---
+Processing config 35/62: ISL=2048, OSL=512, Requests=2000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_512_2000.jsonl
+Created dataset with 2000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_512_2000.jsonl
+Running benchmark for ISL=2048, OSL=512, Requests=2000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 35/62
+Completed config 35/62
+---
+Processing config 36/62: ISL=2048, OSL=1024, Requests=1500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_1024_1500.jsonl
+Created dataset with 1500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_1024_1500.jsonl
+Running benchmark for ISL=2048, OSL=1024, Requests=1500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 36/62
+Completed config 36/62
+---
+Processing config 37/62: ISL=2048, OSL=2048, Requests=1500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_2048_1500.jsonl
+Created dataset with 1500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_2048_1500.jsonl
+Running benchmark for ISL=2048, OSL=2048, Requests=1500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 37/62
+Completed config 37/62
+---
+Processing config 38/62: ISL=2048, OSL=4096, Requests=750
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_4096_750.jsonl
+Created dataset with 750 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_4096_750.jsonl
+Running benchmark for ISL=2048, OSL=4096, Requests=750
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 38/62
+Completed config 38/62
+---
+Processing config 39/62: ISL=2048, OSL=8192, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_8192_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_8192_400.jsonl
+Running benchmark for ISL=2048, OSL=8192, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 39/62
+Completed config 39/62
+---
+Processing config 40/62: ISL=2048, OSL=16384, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_16384_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_2048_16384_200.jsonl
+Running benchmark for ISL=2048, OSL=16384, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 40/62
+Completed config 40/62
+---
+Processing config 41/62: ISL=4096, OSL=128, Requests=1500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_128_1500.jsonl
+Created dataset with 1500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_128_1500.jsonl
+Running benchmark for ISL=4096, OSL=128, Requests=1500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 41/62
+Completed config 41/62
+---
+Processing config 42/62: ISL=4096, OSL=256, Requests=1200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_256_1200.jsonl
+Created dataset with 1200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_256_1200.jsonl
+Running benchmark for ISL=4096, OSL=256, Requests=1200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 42/62
+Completed config 42/62
+---
+Processing config 43/62: ISL=4096, OSL=512, Requests=1000
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_512_1000.jsonl
+Created dataset with 1000 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_512_1000.jsonl
+Running benchmark for ISL=4096, OSL=512, Requests=1000
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 43/62
+Completed config 43/62
+---
+Processing config 44/62: ISL=4096, OSL=1024, Requests=800
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_1024_800.jsonl
+Created dataset with 800 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_1024_800.jsonl
+Running benchmark for ISL=4096, OSL=1024, Requests=800
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 44/62
+Completed config 44/62
+---
+Processing config 45/62: ISL=4096, OSL=2048, Requests=750
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_2048_750.jsonl
+Created dataset with 750 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_2048_750.jsonl
+Running benchmark for ISL=4096, OSL=2048, Requests=750
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 45/62
+Completed config 45/62
+---
+Processing config 46/62: ISL=4096, OSL=4096, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_4096_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_4096_400.jsonl
+Running benchmark for ISL=4096, OSL=4096, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 46/62
+Completed config 46/62
+---
+Processing config 47/62: ISL=4096, OSL=8192, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_8192_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_8192_200.jsonl
+Running benchmark for ISL=4096, OSL=8192, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 47/62
+Completed config 47/62
+---
+Processing config 48/62: ISL=4096, OSL=16384, Requests=100
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_16384_100.jsonl
+Created dataset with 100 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_4096_16384_100.jsonl
+Running benchmark for ISL=4096, OSL=16384, Requests=100
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 48/62
+Completed config 48/62
+---
+Processing config 49/62: ISL=8192, OSL=128, Requests=750
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_128_750.jsonl
+Created dataset with 750 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_128_750.jsonl
+Running benchmark for ISL=8192, OSL=128, Requests=750
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 49/62
+Completed config 49/62
+---
+Processing config 50/62: ISL=8192, OSL=256, Requests=600
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_256_600.jsonl
+Created dataset with 600 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_256_600.jsonl
+Running benchmark for ISL=8192, OSL=256, Requests=600
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 50/62
+Completed config 50/62
+---
+Processing config 51/62: ISL=8192, OSL=512, Requests=500
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_512_500.jsonl
+Created dataset with 500 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_512_500.jsonl
+Running benchmark for ISL=8192, OSL=512, Requests=500
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 51/62
+Completed config 51/62
+---
+Processing config 52/62: ISL=8192, OSL=1024, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_1024_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_1024_400.jsonl
+Running benchmark for ISL=8192, OSL=1024, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 52/62
+Completed config 52/62
+---
+Processing config 53/62: ISL=8192, OSL=2048, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_2048_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_2048_400.jsonl
+Running benchmark for ISL=8192, OSL=2048, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 53/62
+Completed config 53/62
+---
+Processing config 54/62: ISL=8192, OSL=4096, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_4096_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_4096_200.jsonl
+Running benchmark for ISL=8192, OSL=4096, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 54/62
+Completed config 54/62
+---
+Processing config 55/62: ISL=8192, OSL=8192, Requests=150
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_8192_150.jsonl
+Created dataset with 150 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_8192_150.jsonl
+Running benchmark for ISL=8192, OSL=8192, Requests=150
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 55/62
+Completed config 55/62
+---
+Processing config 56/62: ISL=8192, OSL=16384, Requests=75
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_16384_75.jsonl
+Created dataset with 75 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_8192_16384_75.jsonl
+Running benchmark for ISL=8192, OSL=16384, Requests=75
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 56/62
+Completed config 56/62
+---
+Processing config 57/62: ISL=16384, OSL=128, Requests=400
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_128_400.jsonl
+Created dataset with 400 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_128_400.jsonl
+Running benchmark for ISL=16384, OSL=128, Requests=400
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 57/62
+Completed config 57/62
+---
+Processing config 58/62: ISL=16384, OSL=256, Requests=300
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_256_300.jsonl
+Created dataset with 300 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_256_300.jsonl
+Running benchmark for ISL=16384, OSL=256, Requests=300
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 58/62
+Completed config 58/62
+---
+Processing config 59/62: ISL=16384, OSL=512, Requests=250
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_512_250.jsonl
+Created dataset with 250 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_512_250.jsonl
+Running benchmark for ISL=16384, OSL=512, Requests=250
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 59/62
+Completed config 59/62
+---
+Processing config 60/62: ISL=16384, OSL=1024, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_1024_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_1024_200.jsonl
+Running benchmark for ISL=16384, OSL=1024, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 60/62
+Completed config 60/62
+---
+Processing config 61/62: ISL=16384, OSL=2048, Requests=200
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_2048_200.jsonl
+Created dataset with 200 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_2048_200.jsonl
+Running benchmark for ISL=16384, OSL=2048, Requests=200
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 61/62
+Completed config 61/62
+---
+Processing config 62/62: ISL=16384, OSL=16384, Requests=50
+Creating dataset: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_16384_50.jsonl
+Created dataset with 50 samples
+Dataset created successfully: /home/shaamil-karim/benchmark_sweep/datasets/synthetic_16384_16384_50.jsonl
+Running benchmark for ISL=16384, OSL=16384, Requests=50
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[TensorRT-LLM] TensorRT-LLM version: 0.16.0
+Usage: trtllm-bench [OPTIONS] COMMAND [ARGS]...
+Try 'trtllm-bench --help' for help.
+
+Error: No such option: --dataset
+Benchmark completed successfully for config 62/62
+Completed config 62/62
+---
+=================================================
+Benchmark sweep completed at Fri Jul 11 00:28:51 UTC 2025
+Processed 62 configurations
+=================================================
